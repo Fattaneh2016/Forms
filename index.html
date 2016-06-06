@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+
+        <div id="contact-form" style="font-family:'Arial Narrow','Nimbus SansL',sans-serif;">
+   <form id="contact" method="post" action="">
+    <fieldset>
+        <p>
+            <label for="name">Name</label>
+            <input type="text" id="empID" name="EmployeeID" required pattern="[A-Z]{2}[0-9]{4}"
+            title="Employee ID is two capital letters followed by four digits">
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+        </p>
+    </fieldset>
+       <label for="email">Email</label>
+  <input type="email" id="email" />
+  <label for="phone">Phone</label>
+  <input type="text" id="phone" />
+  <label for="message">Questions or
+    Comments</label>
+  <textarea name="message"></textarea>
+  <input type="submit" name="submit" id="submit"
+    value="Submit" />
+
+ </form>
+</div> <!-- end of contact-form -->
+
+        <hr>
+
+        <input id="country" name="country" size="30" list="countries" />
+          <datalist id="countries">
+            <option value="United States">
+            <option value="Canada">
+            <option value="United Kingdom">
+          </datalist>
+
+       
+
+    </body>
+</html>
